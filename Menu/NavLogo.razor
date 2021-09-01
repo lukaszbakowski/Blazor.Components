@@ -1,0 +1,15 @@
+﻿
+<a class="logo" href="/">
+    <img class="logo__img logo__xs--visible" src="@SmallSrc" alt="@Alt" />
+    <img class="logo__img logo__sm--visible" src="@Src" alt="@Alt" />
+</a>
+
+
+@code {
+    [Parameter]
+    public string SmallSrc { get; set; }
+    [Parameter]
+    public string Src { get; set; }
+    [Parameter]
+    public string Alt { get; set; }
+}

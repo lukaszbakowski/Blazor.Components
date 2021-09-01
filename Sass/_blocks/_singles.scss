@@ -1,0 +1,67 @@
+﻿@import "../_variables.scss";
+
+@for $i from 3 through 15 {
+    .p-#{$i} {
+        padding: #{$i * 0.1}rem;
+    }
+
+    .pl-#{$i} {
+        padding-left: #{$i * 0.1}rem;
+    }
+
+    .pr-#{$i} {
+        padding-right: #{$i * 0.1}rem;
+    }
+
+    .pt-#{$i} {
+        padding-top: #{$i * 0.1}rem;
+    }
+
+    .pb-#{$i} {
+        padding-bottom: #{$i * 0.1}rem;
+    }
+    .m-#{$i} {
+        margin: #{$i * 0.1}rem;
+    }
+    .ml-#{$i} {
+        margin-left: #{$i * 0.1}rem;
+    }
+    .mr-#{$i} {
+        margin-right: #{$i * 0.1}rem;
+    }
+    .mt-#{$i} {
+        margin-top: #{$i * 0.1}rem;
+    }
+    .mb-#{$i} {
+        margin-bottom: #{$i * 0.1}rem;
+    }
+}
+.m-center {
+    margin: 0 auto;
+}
+
+
+@each $name, $value in $colorPalet {
+    .bgcolor-#{$name} {
+        background-color: $value;
+    }
+
+    .bdcolor-#{$name} {
+        border-color: $value;
+    }
+
+    .color-#{$name} {
+        color: $value;
+    }
+}
+
+@for $i from 1 through 5 {
+    .bdwidth-#{$i} {
+        border-style:solid;
+        border-width: #{$i}px solid;
+        border-radius: 0.2rem;
+    }
+}
+.shadow {
+    box-shadow:1px 3px 5px gray;
+}

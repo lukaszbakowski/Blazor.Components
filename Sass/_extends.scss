@@ -1,0 +1,18 @@
+﻿%flex--center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:baseline;
+}
+%flex--left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: baseline;
+}
+%flex--right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: baseline;
+}

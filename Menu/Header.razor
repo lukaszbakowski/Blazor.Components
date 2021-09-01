@@ -1,0 +1,41 @@
+﻿<header class="@Class" style="@Style">
+    @ChildContent
+</header>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    [Parameter]
+    public string BgColor { get; set; } = "";
+    [Parameter]
+    public bool Fixed { get; set; } = false;
+    [Parameter]
+    public bool Sticky { get; set; } = false;
+    [Parameter]
+    public bool Opacity { get; set; } = false;
+
+    private string Class = "header";
+    private string Style = "";
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        if (Fixed)
+        {
+            Class += " header--fixed";
+        }
+        else if (Sticky)
+        {
+            Class += " header--sticky";
+        }
+        if(Opacity)
+        {
+            Class += " header--opacity";
+        }
+        if (BgColor != string.Empty)
+        {
+            Style += $" background-color: {BgColor}";
+        }
+
+    }
+}

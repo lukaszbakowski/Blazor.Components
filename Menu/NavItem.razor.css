@@ -1,0 +1,9 @@
+﻿.navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: baseline; }
+
+.navitem {
+  flex-wrap: nowrap;
+  white-space: nowrap; }

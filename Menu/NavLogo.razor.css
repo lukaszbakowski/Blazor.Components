@@ -1,0 +1,18 @@
+﻿.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: baseline; }
+
+.logo {
+  height: 100%; }
+  .logo__img {
+    display: none;
+    max-width: 100%;
+    height: auto; }
+  @media (max-width: 575.555px) {
+    .logo__xs--visible {
+      display: block; } }
+  @media (min-width: 576px) {
+    .logo__sm--visible {
+      display: block; } }

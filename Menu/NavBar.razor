@@ -1,0 +1,22 @@
+﻿
+<nav class="navbar">
+    <div class="pb-7 pt-7">
+        @if (NavLogoContent != null)
+        {
+            @NavLogoContent
+        }
+    </div>
+    <ul>
+        @NavItemContent
+    </ul>
+</nav>
+
+@code {
+
+    [Parameter]
+    public RenderFragment NavItemContent { get; set; }
+    [Parameter]
+    public RenderFragment NavLogoContent { get; set; }
+
+
+}

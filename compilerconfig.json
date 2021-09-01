@@ -1,0 +1,58 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/main.min.css",
+    "inputFile": "Sass/main.scss",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "Menu/NavItem.razor.css",
+    "inputFile": "Menu/NavItem.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Menu/NavBar.razor.css",
+    "inputFile": "Menu/NavBar.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Menu/NavLogo.razor.css",
+    "inputFile": "Menu/NavLogo.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Menu/Header.razor.css",
+    "inputFile": "Menu/Header.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Buttons/ButtonComponent.razor.css",
+    "inputFile": "Buttons/ButtonComponent.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Layout/Grid.razor.css",
+    "inputFile": "Layout/Grid.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFile": "Layout/GridItem.razor.css",
+    "inputFile": "Layout/GridItem.razor.scss",
+    "minify": {
+      "enabled": false
+    }
+  }
+]

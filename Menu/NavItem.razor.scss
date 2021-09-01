@@ -1,0 +1,9 @@
+﻿@import "../Sass//_variables.scss";
+@import "../Sass/_extends.scss";
+
+
+.navitem {
+    @extend %flex--center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}

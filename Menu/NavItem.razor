@@ -1,0 +1,19 @@
+﻿
+
+
+<li class="navitem">
+    <a class="" href="@Href">
+        @ChildContent
+    </a>
+</li>
+
+
+@code {
+
+    [Parameter]
+    public string Href { get; set; }
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+
+}

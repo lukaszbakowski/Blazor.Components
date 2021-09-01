@@ -1,0 +1,24 @@
+﻿@import "../Sass/_extends.scss";
+
+.logo {
+    height: 100%;
+    @extend %flex--left;
+
+    &__img {
+        display: none;
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__xs--visible {
+        @media (max-width: 575.99999px) {
+            display: block;
+        }
+    }
+
+    &__sm--visible {
+        @media (min-width: 576px) {
+            display: block;
+        }
+    }
+}
